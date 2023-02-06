@@ -73,10 +73,6 @@ class Password
         }
         return true;
     }
-//    String setPassword()
-//    {
-//        return password;
-//    }
 }
 
 class LowerCase
@@ -110,7 +106,6 @@ class UpperCase
                 return true;
             }
         }
-
         return  false;
     }
 }
