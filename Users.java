@@ -1,6 +1,5 @@
 package com.mydemo.project1;
 import java.io.Serializable;
-import java.util.Scanner;
 
 public class Users implements Serializable
 {
@@ -41,20 +40,14 @@ public class Users implements Serializable
     {
         this.accountType= accountType;
     }
-//    public String getPassword()
-//    {
-//        return this.password;
-//    }
     public void setPassword()
     {
         this.password = password;
     }
 
-
     @Override
-    public String toString()
-    {
-        return  " Name --> " + this.name  + ", Account Type --> " + this.accountType+ "\n";
+    public String toString() {
+        return this.name +" " + this.password+"\n";
     }
 
 }
